@@ -1,6 +1,6 @@
 import cv2
 
-face = cv2.CascadeClassifier("frontalface.xml")
+face = cv2.CascadeClassifier("~/src/frontalface.xml")
 cap = cv2.VideoCapture(0)
 
 while True:
