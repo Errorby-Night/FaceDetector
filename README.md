@@ -4,6 +4,8 @@ A simple python file to detect face
 ## How To:
   1. Clone the repo
   
+    `git clone https://github.com/Errorby-Night/FaceDetector`
+  
   2. Install opencv
   
     `pip install opencv-python`
