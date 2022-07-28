@@ -10,8 +10,7 @@ A simple python file to detect face
   
       `pip install opencv-python`
   
-  3. 
-  Run the `facefromcam.py` file to run it live in a web cam
+  3. Run the `facefromcam.py` file to run it live in a web cam
       
        `python3 facefromcam.py`
         
@@ -23,25 +22,11 @@ A simple python file to detect face
        `python3 imageface.py`
  ## Examples: 
  
- 1. 
- Original:
- <img src="src/oval (134).jpg" width="200" height="300">
- Result:
- <img src="Output/oval (134).jpg" width="200" height="300">
- 
- <br>
- 
- 2. 
- Original:
- <img src="src/oval (95).jpg" width="200" height="300">
- Result:
- <img src="Output/oval (95).jpg" width="200" height="300">
- 
- 3.
- Original:
- <img src="src/oval (126).jpg" width="200" height="300">
- Result:
- <img src="Output/oval (126).jpg" width="200" height="300">
+ | No. | Original | Result |
+ |:---|:-------------|:--------------|
+ | 1 | <img src="src/oval (134).jpg" width="200" height="300"> | <img src="Output/oval (134).jpg" width="200" height="300"> |
+ | 2 | <img src="src/oval (95).jpg" width="200" height="300"> | <img src="Output/oval (95).jpg" width="200" height="300"> |
+ | 3 | <img src="src/oval (126).jpg" width="200" height="300"> | <img src="Output/oval (126).jpg" width="200" height="300"> |
  
  
  ## FAQ:
