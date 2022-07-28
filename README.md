@@ -4,23 +4,23 @@ A simple python file to detect face
 ## How To:
   1. Clone the repo
   
-    `git clone https://github.com/Errorby-Night/FaceDetector`
+     `git clone https://github.com/Errorby-Night/FaceDetector`
   
   2. Install opencv
   
-    `pip install opencv-python`
+      `pip install opencv-python`
   
   3. 
   Run the `facefromcam.py` file to run it live in a web cam
       
-        `python3 facefromcam.py`
+       `python3 facefromcam.py`
         
         
   <p align="center"> OR </p>
   
   Run the `imageface.py` file to detect face in a single file
   
-        `python3 imageface.py`
+       `python3 imageface.py`
  ## Examples: 
  
  1. 
@@ -50,10 +50,12 @@ A simple python file to detect face
  
   ~ Run this code in that case:
   
-  ```import os
+  ```python
+  import os
 from os import listdir
 folder_dir = "D:/Program/Output/"
 for images in os.listdir(folder_dir):
     if (images.endswith(".png") or images.endswith(".jpg") or images.endswith(".jpeg")):
         filename = "D:/Program/Output/" + images
-        imageface(filename)```
+        imageface(filename)
+```
